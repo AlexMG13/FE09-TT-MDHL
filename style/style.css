@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Unbounded;
+}
+
+.cover-image {
+    width: 900px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    color: white;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
+
+.logo-image {
+    width: 150px;
+}
+
+.nav-bar {
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+}
