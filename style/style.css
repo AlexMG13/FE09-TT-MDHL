@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -7,29 +8,64 @@
     font-family: Unbounded;
 }
 
-.cover-image {
-    width: 900px;
-}
-
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
+    margin-top: 50px;
 }
 
 h3 {
     color: white;
-    display: inline-block;
+    display: block;
     background-color: black;
     text-align: center;
+    padding : 10px;
+}
+
+body {
+    width : 900px;
+    margin: 0 20px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+article {
+    width: 600px;
+    display: inline-block;
+    padding: 20px 0px;
+}
+
+aside {
+    padding: 10px;
+}
+
+nav {
+    width: 150px;
+    display: inline-block;
+}
+
+
+.cover-image {
+    width: 100%;
+    height: 300px;
 }
 
 .logo-image {
-    width: 150px;
+    width: 100px;
+    display: block;
 }
 
 .nav-bar {
-    display: inline-block;
+    padding: 20px 0px;
+    display: block;
 }
 
-.container {
-    display: inline-block;
+.active {
+    text-decoration: none;
 }
+
+.section-about {
+    padding: 10px;
+}
+
