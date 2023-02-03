@@ -107,10 +107,6 @@ h3 {
   color: #f8e12e;
 }
 
-.r-body {
-  margin: 2.5em;
-  width: 75%;
-}
 .r-title {
   font-size: 1em;
   text-align: center;
@@ -122,19 +118,17 @@ h3 {
 }
 
 .r-content {
-  padding: 1.5em 0;
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
+  padding: 1.5em 11em;
 }
 
-ol {
-  padding: 0 40px;
+li {
+  list-style-position: inside;
 }
 
 ul {
-  padding: 0 40px;
   list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 3em;
 }
 
 .r-p {
@@ -178,4 +172,26 @@ table {
   height: 40vh;
 }
 
+.s-padd {
+  padding: 1em 0 1em 0;
+}
 
+.s-order {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5em 0.5em;
+}
+
+.t-c {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
