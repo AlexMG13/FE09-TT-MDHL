@@ -53,7 +53,7 @@ main {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #f8e12e;
 }
 
@@ -93,6 +93,10 @@ h3 {
   text-indent: 15px;
 }
 
+.indentx2 {
+  text-indent: 35px;
+}
+
 .as-contact {
   text-align: center;
   margin: 1em 2.5em;
@@ -102,3 +106,76 @@ h3 {
   text-decoration: none;
   color: #f8e12e;
 }
+
+.r-body {
+  margin: 2.5em;
+  width: 75%;
+}
+.r-title {
+  font-size: 1em;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.r-h4 {
+  padding: 1.25em 0;
+}
+
+.r-content {
+  padding: 1.5em 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+}
+
+ol {
+  padding: 0 40px;
+}
+
+ul {
+  padding: 0 40px;
+  list-style-type: circle;
+}
+
+.r-p {
+  padding-bottom: 1em;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-latin {
+  list-style-type: lower-latin;
+}
+
+.r-section {
+  display: flex;
+  align-content: flex-start;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em 0;
+}
+
+.s-text {
+  margin: 0 5em;
+}
+
+.s-table {
+  padding-top: 1.5em;
+  margin: 0 5em;
+}
+
+.s-info {
+  padding: 1.5em 0;
+  margin: 0 5em;
+}
+
+table {
+  height: 40vh;
+}
+
+
