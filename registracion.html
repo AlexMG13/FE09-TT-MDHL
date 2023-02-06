@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="./assets/Icono-Mighty-ducks.ico" type="image/x-icon">
     <title>Mighty Ducks Hockey League</title>
 </head>
+
 <body>
     <header>
         <h1>Mighty Ducks Hockey League</h1>
@@ -25,45 +27,114 @@
             <a class="a-nav active" href="#">Registracion Form</a>
         </nav>
         <h2>Registracion Form</h2>
-        <form action="/action_page.php" method="get">
-            <label for="fname">Player's First Name:</label>
-            <input type="text" id="fname" name="fname">
-
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname">
-
-            <label for="address">Street Address:</label>
-            <input type="text" id="address" name="address">
-
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city">
-
-            <label for="zipcode">Zip Code:</label>
-            <input type="text" id="zipcode" name="zipcode">
-
-            <label for="birthdate">Birth Date(mm/dd/yyyy):</label>
-            <input type="text" id="birthdate" name="birthdate">
-
-            <label for="gender">Gender:</label>
-            <input type="checkbox" name="female" id="female" value="female">
-            <label for="gender">Female</label>
-            <input type="checkbox" name="male" id="male" value="male">
-            <label forgender">Male</label>
-
-            <label for="grade">Grade:</label>
-            <input type="checkbox" name="pre-school" id="pre-school" value="pre-school">
-            <label for="pre-school">Pre-School</label>
-            <input type="checkbox" name="1st" id="1st" value="1st">
-            <label for="1st">1st</label>
-            <input type="checkbox" name="2nd" id="2nd" value="2nd">
-            <label for="2nd">2nd</label>            
-            <input type="checkbox" name="3rd" id="3rd" value="3rd">
-            <label for="3rd">3rd</label>
-            <input type="checkbox" name="4th" id="4th" value="4th">
-            <label for="4th">4th</label>
-            <input type="checkbox" name="5th" id="5th" value="5th">
-            <label for="5th">5th</label>
+        <form action="/show_data.html" method="get">
+            <fieldset>
+                <label for="fname">Player's First Name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname">
+            </fieldset>
+            <fieldset>
+                <label for="address">Street Address:</label>
+                <input type="text" id="address" name="address">
+            </fieldset>
+            <fieldset>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <label for="zipcode">Zip Code:</label>
+                <input type="text" id="zipcode" name="zipcode">
+            </fieldset>
+            <fieldset>
+                <label for="birthdate">Birth Date(mm/dd/yyyy):</label>
+                <input type="text" id="birthdate" name="birthdate">
+                <label for="gender">Gender:</label>
+                <input type="checkbox" name="female" id="female" value="female">
+                <label for="gender">Female</label>
+                <input type="checkbox" name="male" id="male" value="male">
+                <label forgender">Male</label>
+            </fieldset>
+            <fieldset>
+                <label for="grade">Grade:</label>
+                <input type="checkbox" name="pre-school" id="pre-school" value="pre-school">
+                <label for="pre-school">Pre-School</label>
+                <input type="checkbox" name="1st" id="1st" value="1st">
+                <label for="1st">1st</label>
+                <input type="checkbox" name="2nd" id="2nd" value="2nd">
+                <label for="2nd">2nd</label>
+                <input type="checkbox" name="3rd" id="3rd" value="3rd">
+                <label for="3rd">3rd</label>
+                <input type="checkbox" name="4th" id="4th" value="4th">
+                <label for="4th">4th</label>
+                <input type="checkbox" name="5th" id="5th" value="5th">
+                <label for="5th">5th</label>
+            </fieldset>
+            <h3>Which elementary school do you live near?</h3>
+            <p>Closest School:</p>
+            <fieldset>
+                <input type="checkbox" name="ajkatzenmaier" id="ajkatzenmaier">
+                <label for="ajkatzenmaier">AJ Katzenmaier</label>
+                <input type="checkbox" name="greenbay" id="greenbay">
+                <label for="greenbay">Greenbay</label>
+                <input type="checkbox" name="howardayeager" id="howardayeager">
+                <label for="howardayeager">Howard A Yeager</label>
+                <input type="checkbox" name="marjoriephart" id="marjoriephart">
+                <label for="marjoriephart">Marjorie P Hart</label>
+                <input type="checkbox" name="northelementary" id="northelementary">
+                <label for="northelementary">North Elementary</label>
+                <input type="checkbox" name="southelementary" id="southelementary">
+                <label for="southelementary">South Elementary</label>
+            </fieldset>
+            <h3>What position(s) do you normally play? (check all that apply)</h3>
+            <fieldset>
+                <input type="checkbox" name="forward" id="forward">
+                <label for="forward">Forward</label>
+                <input type="checkbox" name="Defence" id="Defence">
+                <label for="Defence">Defence</label>
+                <input type="checkbox" name="midfield" id="midfield">
+                <label for="midfield">Midfield</label>
+                <input type="checkbox" name="goalkeeper" id="goalkeeper">
+                <label for="goalkeeper">goalkeeper</label>
+            </fieldset>
+            <h3>Uniform Size:</h3>
+            <fieldset>
+                <input type="checkbox" name="ysmall" id="ysmall">
+                <label for="ysmall">Youth Small</label>
+                <input type="checkbox" name="ymedium" id="ymedium">
+                <label for="ymedium">Youth Medium</label>
+                <input type="checkbox" name="ylarge" id="ylarge">
+                <label for="ylarge">Youth Large</label>
+                <input type="checkbox" name="small" id="small">
+                <label for="small">Small</label>
+                <input type="checkbox" name="medium" id="medium">
+                <label for="medium">Medium</label>
+                <input type="checkbox" name="large" id="large">
+                <label for="large">Large</label>
+                <input type="checkbox" name="xlarge" id="xlarge">
+                <label for="xlarge">Extra-Large</label>
+            </fieldset>
+            <p>Permission to Play</p>
+            <p>
+                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the “League” accepting the registrant for its
+                hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                their employees and associated personnel and volunteers,including the facilities used for
+                practices and games, against any claim by or on behalf of the registrant as a result of the
+                registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                activities,which transportation
+            </p>
+            <p>By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge
+                that I have read the cancellation policy and agree to its terms.</p>
+            <fieldset>
+                <label for="parent">Parent/GuardianSignature:</label>
+                <input type="text" name="parent" id="parent">
+            </fieldset>
+            <fieldset>
+                <label for="date">Date:</label>
+                <input type="date" name="date" id="date">
+            </fieldset>
         </form>
     </main>
 </body>
+
 </html>
