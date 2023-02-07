@@ -205,6 +205,7 @@ a {
 form {
   font-size: 1em;
   padding: 0 2em;
+  text-align: justify;
 }
 
 fieldset {
@@ -212,7 +213,7 @@ fieldset {
   padding: 0.5em;
 }
 
-h3 {
+.f-h3 {
   padding: 1.5em 0.5em;
 }
 
@@ -249,9 +250,9 @@ input[type="submit"] {
 }
 
 input[type="radio"] {
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
 
 input[type="checkbox"] {
-  margin: 0 0.5em;
+  margin: 0 1em;
 }
