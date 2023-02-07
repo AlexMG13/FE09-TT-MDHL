@@ -217,7 +217,7 @@ fieldset {
   padding: 1.5em 0.5em;
 }
 
-h4 {
+.f-h4 {
   padding: 1.5em 0 0.5em 0;
 }
 
@@ -255,4 +255,12 @@ input[type="radio"] {
 
 input[type="checkbox"] {
   margin: 0 1em;
+}
+
+input[type="date"] {
+  margin: 0 1em;
+  background-color: #c95435;
+  padding: 0.5em 0.5em;
+  border: none;
+  border-bottom: 0.2em solid #f8e12e;
 }
