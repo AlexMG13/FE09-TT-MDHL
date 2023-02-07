@@ -47,72 +47,85 @@
             <fieldset>
                 <label for="birthdate">Birth Date(mm/dd/yyyy):</label>
                 <input type="text" id="birthdate" name="birthdate">
-                <label for="gender">Gender:</label>
-                <input type="checkbox" name="female" id="female" value="female">
-                <label for="gender">Female</label>
-                <input type="checkbox" name="male" id="male" value="male">
-                <label forgender">Male</label>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="male">Female</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
             </fieldset>
             <fieldset>
-                <label for="grade">Grade:</label>
-                <input type="checkbox" name="pre-school" id="pre-school" value="pre-school">
+                <label>Grade:</label>
+                <input type="radio" name="grade" id="pre-school" value="pre-school">
                 <label for="pre-school">Pre-School</label>
-                <input type="checkbox" name="1st" id="1st" value="1st">
+                <input type="radio" name="grade" id="1st" value="1st">
                 <label for="1st">1st</label>
-                <input type="checkbox" name="2nd" id="2nd" value="2nd">
+                <input type="radio" name="grade" id="2nd" value="2nd">
                 <label for="2nd">2nd</label>
-                <input type="checkbox" name="3rd" id="3rd" value="3rd">
+                <input type="radio" name="grade" id="3rd" value="3rd">
                 <label for="3rd">3rd</label>
-                <input type="checkbox" name="4th" id="4th" value="4th">
+                <input type="radio" name="grade" id="4th" value="4th">
                 <label for="4th">4th</label>
-                <input type="checkbox" name="5th" id="5th" value="5th">
+                <input type="radio" name="grade" id="5th" value="5th">
                 <label for="5th">5th</label>
             </fieldset>
             <h3>Which elementary school do you live near?</h3>
-            <p>Closest School:</p>
             <fieldset>
-                <input type="checkbox" name="ajkatzenmaier" id="ajkatzenmaier">
+                <legend>Closest School:</legend>
+                <input type="radio" name="school" id="ajkatzenmaier">
                 <label for="ajkatzenmaier">AJ Katzenmaier</label>
-                <input type="checkbox" name="greenbay" id="greenbay">
-                <label for="greenbay">Greenbay</label>
-                <input type="checkbox" name="howardayeager" id="howardayeager">
-                <label for="howardayeager">Howard A Yeager</label>
-                <input type="checkbox" name="marjoriephart" id="marjoriephart">
+                <input type="radio" name="school" id="marjoriephart">
                 <label for="marjoriephart">Marjorie P Hart</label>
-                <input type="checkbox" name="northelementary" id="northelementary">
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="school" id="greenbay">
+                <label for="greenbay">Greenbay</label>
+                <input type="radio" name="school" id="northelementary">
                 <label for="northelementary">North Elementary</label>
-                <input type="checkbox" name="southelementary" id="southelementary">
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="school" id="howardayeager">
+                <label for="howardayeager">Howard A Yeager</label>
+                <input type="radio" name="school" id="southelementary">
                 <label for="southelementary">South Elementary</label>
             </fieldset>
             <h3>What position(s) do you normally play? (check all that apply)</h3>
             <fieldset>
                 <input type="checkbox" name="forward" id="forward">
                 <label for="forward">Forward</label>
-                <input type="checkbox" name="Defence" id="Defence">
-                <label for="Defence">Defence</label>
                 <input type="checkbox" name="midfield" id="midfield">
                 <label for="midfield">Midfield</label>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" name="Defence" id="Defence">
+                <label for="Defence">Defence</label>
                 <input type="checkbox" name="goalkeeper" id="goalkeeper">
                 <label for="goalkeeper">goalkeeper</label>
             </fieldset>
             <h3>Uniform Size:</h3>
             <fieldset>
-                <input type="checkbox" name="ysmall" id="ysmall">
+                <input type="radio" name="uni-size" id="ysmall">
                 <label for="ysmall">Youth Small</label>
-                <input type="checkbox" name="ymedium" id="ymedium">
-                <label for="ymedium">Youth Medium</label>
-                <input type="checkbox" name="ylarge" id="ylarge">
-                <label for="ylarge">Youth Large</label>
-                <input type="checkbox" name="small" id="small">
-                <label for="small">Small</label>
-                <input type="checkbox" name="medium" id="medium">
+                <input type="radio" name="medium" id="medium">
                 <label for="medium">Medium</label>
-                <input type="checkbox" name="large" id="large">
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="uni-size" id="ymedium">
+                <label for="ymedium">Youth Medium</label>
+                <input type="radio" name="uni-size" id="large">
                 <label for="large">Large</label>
-                <input type="checkbox" name="xlarge" id="xlarge">
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="uni-size" id="ylarge">
+                <label for="ylarge">Youth Large</label>
+                <input type="radio" name="uni-size" id="xlarge">
                 <label for="xlarge">Extra-Large</label>
             </fieldset>
-            <p>Permission to Play</p>
+            <fieldset>
+                <input type="radio" name="uni-size" id="small">
+                <label for="small">Small</label>
+            </fieldset>
+
+            <h4>Permission to Play</h4>
             <p>
                 I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
                 rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
@@ -133,8 +146,8 @@
                 <label for="date">Date:</label>
                 <input type="date" name="date" id="date">
             </fieldset>
+            <input type="submit" value="submit">
         </form>
     </main>
 </body>
-
 </html>
