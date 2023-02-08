@@ -1,7 +1,8 @@
-Front-End Project
-
-first step: modeling HTML
-second step: Adding styles
-third step: flex-box
-fourth step: table and list
-fifth step: form
+#Front-End Project 
+<ul>
+  <li>First step: modeling HTML</li>
+  <li>Second step: Adding styles</li>
+  <li>Third step: flex-box</li>
+  <li>Fourth step: table and list</li>
+  <li>Fifth step: form</li>
+</ul>
