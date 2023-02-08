@@ -8,6 +8,7 @@
 }
 body {
   background-color: #c95435;
+  padding-bottom: 1em;
 }
 header {
   display: flex;
@@ -57,7 +58,7 @@ h1 {
   color: #f8e12e;
 }
 
-h3 {
+.sub-title {
   font-size: 1.5em;
   background-color: #f8e12e;
   text-align: center;
@@ -170,6 +171,7 @@ h2 {
 
 table {
   height: 40vh;
+  border: 1px solid;
 }
 
 .s-padd {
@@ -179,12 +181,14 @@ table {
 .s-order {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 0.5em 0.5em;
+  border: 1px solid;
 }
 
 .t-c {
@@ -194,4 +198,71 @@ th, td {
 a {
   text-decoration: none;
   color: black;
+}
+
+.rf-h1 {
+  text-align: center;
+}
+
+form {
+  font-size: 1em;
+  padding: 0 2em;
+  text-align: justify;
+}
+
+fieldset {
+  border: none;
+  padding: 0.5em;
+}
+
+.f-h3 {
+  padding: 1.5em 0.5em;
+}
+
+.f-h4 {
+  padding: 1.5em 0 0.5em 0;
+}
+
+iframe {
+  border-radius: 1rem;
+  border: 2px solid white;
+  margin: 1em;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 0.5em 0.5em;
+  border: none;
+  border-bottom: 0.2em solid #f8e12e;
+  background-color: #c95435;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #f8e12e;
+  color: black;
+  padding: 1em 1.5em;
+  margin: 0.5em 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5em;
+}
+
+input[type="radio"] {
+  margin: 0 1em;
+}
+
+input[type="checkbox"] {
+  margin: 0 1em;
+}
+
+input[type="date"] {
+  margin: 0 1em;
+  background-color: #c95435;
+  padding: 0.5em 0.5em;
+  border: none;
+  border-bottom: 0.2em solid #f8e12e;
 }
