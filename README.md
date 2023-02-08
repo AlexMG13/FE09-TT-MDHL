@@ -1,4 +1,4 @@
-#Front-End Project 
+# Front-End Project 
 <ul>
   <li>First step: modeling HTML</li>
   <li>Second step: Adding styles</li>
